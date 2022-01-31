@@ -1,0 +1,72 @@
+/* Game Wrapper */
+.Game-Wrapper {
+  margin: auto;
+  width: 50%;
+}
+/*Board styling*/
+#board {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#board td,
+#board tr {
+  border: 0.5px groove rgb(216, 216, 216);
+  border-collapse: collapse;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  font-size: medium;
+}
+
+#board tr:nth-child(3),
+#board tr:nth-child(6) {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+
+#board td:nth-child(3),
+#board td:nth-child(6) {
+  border-right: 1px solid black;
+  border-collapse: collapse;
+}
+
+#board td:hover {
+  background-color: #f5dd90;
+}
+
+/* Numbers Palette styling */
+#palette {
+  margin: auto;
+  border: 0.5px groove rgb(0, 0, 0);
+  border-collapse: collapse;
+}
+
+#palette td,
+#palette tr {
+  border: 0.5px groove rgb(0, 0, 0);
+  border-collapse: collapse;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  font-size: small;
+}
+
+#palette td img {
+  object-fit: fill;
+  width: 50%;
+  height: 50%;
+}
+
+#palette td:hover {
+  background-color: #f5dd90;
+}
+
+/* unused */
+.user-input {
+  background-color: #f2f2f2;
+}
+.error {
+  background-color: #f76c5e;
+}
