@@ -58,7 +58,9 @@
 // console.log(assign_table());
 function clickHandler() {
   // Here, `this` refers to the element the event was hooked on
-  console.log("clicked");
+  window.onclick = e => {
+    console.log(e.target.innerText);
+    } 
 }
 
 function createTable() {
