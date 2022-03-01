@@ -111,7 +111,9 @@
 .error {
   background-color: #f76c5e;
 }
-
+.error-in-input {
+  background-color: #f76c5e;
+}
 /* Highscores */
 /*Score Board styling*/
 #Score-board {
