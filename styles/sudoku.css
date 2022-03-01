@@ -68,6 +68,14 @@
   background-color: #f5dd90;
 }
 
+#palette td:focus {
+  background-color: #b49120;
+}
+
+#palette td:active {
+  background-color: #b49120;
+}
+
 /*prevents navbar from closing when collapsed*/
 .navbar-collapse.collapse.in {
   display: block !important;
